@@ -1,5 +1,7 @@
 # Learn how to add code owners here:
+
 # https://help.github.com/en/articles/about-code-owners
 
-*          @ranajahanzaib
-/.github/  @ranajahanzaib
+-          @ranajahanzaib @aftabrehan
+
+/.github/ @ranajahanzaib
