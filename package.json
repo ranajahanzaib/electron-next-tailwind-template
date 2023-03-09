@@ -5,19 +5,23 @@
   "productName": "Electron App built with Next.js and Tailwind CSS",
   "scripts": {
     "clean": "rimraf dist build renderer/out renderer/.next",
-    "dev": "npm run build-electron && electron .",
+    "dev": "yarn build-electron && electron .",
     "build-renderer": "next build renderer && next export renderer",
     "build-electron": "tsc -p electron-src",
-    "build": "npm run build-renderer && npm run build-electron",
-    "pack-app": "npm run build && electron-builder --dir",
-    "dist": "npm run build && electron-builder",
+    "build": "yarn build-renderer && yarn build-electron",
+    "pack-app": "yarn build && electron-builder --dir",
+    "dist": "yarn build && electron-builder",
     "type-check": "tsc -p ./renderer/tsconfig.json && tsc -p ./electron-src/tsconfig.json"
   },
   "dependencies": {
+    "@types/tailwindcss": "^3.1.0",
+    "autoprefixer": "^10.4.13",
     "electron-is-dev": "^1.1.0",
     "electron-next": "^3.1.5",
+    "postcss": "^8.4.21",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.7"
   },
   "devDependencies": {
     "@types/node": "^14.14.6",
