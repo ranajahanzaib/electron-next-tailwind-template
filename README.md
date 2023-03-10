@@ -1,4 +1,4 @@
-# Project Title
+# Electron App (Next.js + TailwindCSS)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
