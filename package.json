@@ -27,7 +27,7 @@
     "@types/node": "^14.14.6",
     "@types/react": "^16.9.9",
     "@types/react-dom": "^16.9.9",
-    "electron": "^22",
+    "electron": "^28",
     "electron-builder": "^23.0.3",
     "next": "latest",
     "rimraf": "^3.0.0",
